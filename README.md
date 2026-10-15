@@ -6,6 +6,10 @@ End-to-end employee loan management for a fictional company (Pure Truth Water Fa
 
 **Author:** Marisa E. Roberts · **Project:** Project Presentation — Dev. Foundation Phase (Africa Ohana)
 
+🎬 **Demo video:** <a href="https://drive.google.com/drive/folders/1ZqcQVPsFK7mmCRHI2Z2y9addrnkbzAnD?usp=sharing" target="_blank">Watch Video Demo on Google Drive</a>
+
+💼 **LinkedIn post:** <a href="https://lnkd.in/p/d-k7ztHv" target="_blank">View Discussion & Post on LinkedIn</a>
+
 🎬 **Demo video:** [Watch Video Demo on Google Drive](https://drive.google.com/drive/folders/1ZqcQVPsFK7mmCRHI2Z2y9addrnkbzAnD?usp=sharing)
 
 💼 **LinkedIn post:**[View Discussion & Post on LinkedIn](https://lnkd.in/p/d-k7ztHv)
