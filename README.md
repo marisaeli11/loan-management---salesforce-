@@ -30,11 +30,11 @@ A native Salesforce app, built on the *Aetotech Loan App Mgr* managed package an
 
 | Original requirement | How it is solved |
 |---|---|
-| Centralised calculation of amount lent, interest, balance, outstanding | Formula and Roll-Up Summary fields on `Loan_Application__c`, plus reports |
+| Centralized calculation of amount lent, interest, balance, outstanding | Formula and Roll-Up Summary fields on `Loan_Application__c`, plus reports |
 | Multi-user, less Finance workload | Employees submit their own requests and payments; Finance only approves or rejects |
 | Digital copy of each bank receipt | Mandatory File Upload in the repayment flow: no receipt, no payment |
 | Weekly/monthly repayment reports | Loan Repayment Detail Report, dashboard and weekly report subscriptions; reports remain exportable to Excel |
-| Validate multiple loans and the loan limit | A second request is blocked while a loan is open; installment must stay under **40 % of gross salary** |
+| Validate multiple loans and the loan limit | A second request is blocked while a loan is open; installment must stay under **40% of gross salary** |
 
 ## What it looks like
 
@@ -68,7 +68,7 @@ Personas (all testing done with real logins, never "Login As"):
 
 - `Loan_Application__c` — each request and its lifecycle (Submitted → Approved/Rejected → Paid Off), with calculated principal, interest and balance.
 - `Loan_Repayment_Receipt__c` — each payment (Master-Detail of the loan), with its receipt and approval cycle (Draft → Submitted → Approved/Rejected, plus *No Receipt*).
-- `Salary_Scale__c` — salary catalogue by designation, used to validate the 40 % limit.
+- `Salary_Scale__c` — salary catalog by designation, used to validate the 40 % limit.
 - `Account` — repurposed as the employee record, linked to the real `User` through `Employee_User__c`, so a Flow always knows *who is logged in* without the employee self-identifying.
 
 ### Automation inventory
